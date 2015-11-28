@@ -1,5 +1,5 @@
-# yellow_bird_website
-a website made for practice/fun with html, css, and flask
+# ChangeTheRatio
+a website that I've made as an entry for the Coding House #ChangeTheRatio scholarship
 
 ###usage
 currently being run on heroku, accessible here:
