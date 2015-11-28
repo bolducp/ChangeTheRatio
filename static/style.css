@@ -1,0 +1,305 @@
+
+#myStory {
+    background-color: #FFE4C4;
+    color: #49A391;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: black 1px 1px 1px;
+    font-size: 1em;
+    float: right;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 250px;
+    height: 70px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.container {
+  width: 960px;
+}
+
+/* Header */
+
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 300;
+  font-size: 65px;
+  margin-bottom: 1%;
+}
+
+
+/* Carousel */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 670px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.slide {
+  background: url('laptop2.jpg') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.active-slide {
+    display: block;
+}
+
+
+.enter {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3em;
+  padding: 10%;
+  color: #FFB947;
+  text-shadow: black 0px 0px 2px;
+}
+
+
+.slide-copy h1 {
+  color: #FFB947;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 65px;
+  margin-top: 105px;
+  margin-bottom: 0px;
+  text-shadow: black 0px 0px 2px;
+  font-weight: 400;
+}
+
+
+.slide-copy h2 {
+  color: #FFB947;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 5px;
+}
+
+
+.slide-copy p {
+  color: #49A391;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+  padding-top:20%;
+  margin-top: 16px;
+  text-shadow: black 3px 3px 3px;
+}
+
+
+.slide-img {
+  text-align: right;
+}
+
+/* Slide feature */
+
+.slide-feature {
+  text-align: center;
+  background-image: url('laptop1.jpg');
+  height: 670px;
+}
+
+
+.slide-feature2 {
+  text-align: center;
+  background-image: url('laptop4.jpg');
+  height: 670px;
+}
+
+
+.slide-feature3 {
+  text-align: center;
+  background-image: url('laptop5.jpg');
+  height: 670px;
+}
+
+
+.slide-feature img {
+  margin-top: 112px;
+  margin-bottom: 28px;
+}
+
+
+.slide-feature a {
+  display: block;
+  color: #FFB947;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 3%
+}
+
+
+.slide-feature2 h2 {
+  display: block;
+  color: #FFB947;
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-size: 44px;
+  margin-top:5%;
+  text-shadow: black 0px 0px 4px;
+}
+
+
+.slide-feature3 h2 {
+  display: block;
+  color: #FFB947;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-size: 44px;
+  margin-top:5%;
+  text-shadow: black 0px 0px 4px;
+}
+
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+
+div.transbox {
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.91;
+    width: 130%;
+    line-height: 1.1;
+    font-size: 20px;
+    display: block;
+    filter: alpha(opacity=91); /* For IE8 and earlier */
+}
+
+
+div.transbox2 {
+    margin: 10px;
+    background-color: #ffffff;
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    text-align: left;
+    opacity: 0.91;
+    filter: alpha(opacity=91); /* For IE8 and earlier */
+}
+
+
+div.transbox3 {
+    margin: 20px;
+    padding: 5px 20px 20px 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.91;
+    width: 100%;
+    line-height: 1.1;
+    font-size: 20px;
+    display: block;
+    filter: alpha(opacity=91); /* For IE8 and earlier */
+}
+
+
+ul {
+    margin: 10px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    text-align: left;
+    opacity: 0.85;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+.slide-feature3 p {
+    margin: 10px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    text-align: left;
+    opacity: 0.85;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+.slide-feature p {
+   color: black;
+   -webkit-text-fill-color: #FFB947; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    margin: 10px;
+    background-color: #ffffff;
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    text-align: left;
+    opacity: 0.85;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+.slide-feature h2 {
+    color: black;
+   -webkit-text-fill-color: #FFB947; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;
+    color: #FFB947;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 5px;
+}
+
+
+div.transbox2 p {
+    margin: 2%;
+}
