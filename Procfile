@@ -1,1 +1,1 @@
-web: gunicorn ybapp:app
+web: gunicorn changeTheRatio:app
